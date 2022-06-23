@@ -4,7 +4,7 @@ from googleplaces import GooglePlaces, types, lang
 import numpy as np
 ready=['groceries']#put in category names you want to search,need to prepare the namelist for stores
 type_codes=[40]#put in corresponding type_code you want to search for each category, remember only one for each category
-GOOGLE_MAPS_KEY = "AIzaSyC72OAgRcfab8wZrVPlCjgST-t_GOkF0jE"
+GOOGLE_MAPS_KEY = ""#please enter your own google maps key here
 google_places = GooglePlaces(GOOGLE_MAPS_KEY)
 keyworddic={'bars':'bar','cafe':'cafe','brewery':'liquor','groceries':None}
 with open('D:\\fieldlist.txt') as f:
